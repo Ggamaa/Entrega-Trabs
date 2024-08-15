@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4; 
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    text-align: center;
+    padding-top: 15px;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.historia, .Categorias, .Processo, .Revelacoes {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.historia, .Categorias p, .Processo p, .Revelacoes p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.historia hr, .Categorias hr, .Processo hr, .Revelacoes hr {
+    text-align: center;
+    border: 0;
+    border-top: 2px solid #333; 
+    width: 50%; 
+    margin: 20px auto; 
+}
+.time, .portaria{
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.logo-vitoriaa {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Logos {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 20px; 
+    padding-right: 30%;
+    text-align: center;
+    padding-top: 15px;
+}
+.Logos img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.Logos img:hover {
+    transform: scale(1.1) rotate(5deg) translateY(-5px); /* Aumenta levemente, rotaciona e move a imagem */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); 
+    opacity: 0.9; /* Leve transparência para dar destaque */
+}
+
+.portaria img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%; 
+    height: auto;
+    border: 5px solid #333; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.portaria img:hover {
+    transform: scale(1.05); /* Aumenta levemente a imagem ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Intensifica a sombra ao passar o mouse */
+}
+
+.banner-lateral {
+    position: fixed; 
+    top: 0; /* Alinha o banner ao topo da página */
+    right: 0; /* Alinha o banner à direita */
+    width: 200px; 
+    height: 100vh; 
+    z-index: 1000; /* Garante que o banner fique acima de outros elementos */
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff; 
+    display: flex; 
+}
+
+.banner-lateral img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; /* Garante que a imagem preencha todo o espaço do banner */
+    border-radius: 0; 
+}
